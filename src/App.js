@@ -1,8 +1,7 @@
-import './App.css';
-
+import './App.css'
 import { Layout } from "antd"
-
 import CustomHeader from "./components/header"
+import Routes from "./routes"
 
 function App() {
 
@@ -11,8 +10,12 @@ function App() {
   return (
     <>
       <Layout>
-        <Header><CustomHeader/></Header>
-        <Content>Content</Content>
+        <Header>
+          <CustomHeader/>
+        </Header>
+        <Content>
+          <Routes/>
+        </Content>
       </Layout>
     </>
   )
