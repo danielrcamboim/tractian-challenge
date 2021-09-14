@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import { AssetsContext } from "../../providers/assets"
-import InfoCard from "../../components/card"
+import InfoCard from "../../components/assetsCard"
 
 const Home = () => {
     

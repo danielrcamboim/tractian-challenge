@@ -1,4 +1,4 @@
-import './styles.css'
+import "../common.css"
 import { Card } from "antd"
 
 import Highcharts from "highcharts/highcharts.js"
