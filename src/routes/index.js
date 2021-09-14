@@ -2,6 +2,7 @@ import { Switch, Route } from "react-router-dom"
 import Home from "../pages/home"
 import Users from "../pages/users"
 import Units from "../pages/units"
+import Companies from "../pages/companies"
 
 const Routes = () => {
     return(
@@ -10,7 +11,7 @@ const Routes = () => {
                 <Home/>
             </Route>
             <Route path="/companies">
-                <h1>Empresas</h1>
+                <Companies/>
             </Route>
             <Route path="/units">
                 <Units/>
